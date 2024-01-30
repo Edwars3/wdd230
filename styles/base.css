@@ -61,11 +61,14 @@ footer {
 /* Style the learning activities list */
 .Card ul {
     list-style: none;
+
 }
 
 .Card li {
     margin-bottom: 10px;
+
 }
+
 
 /* Style links */
 a {
