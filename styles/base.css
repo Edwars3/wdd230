@@ -9,6 +9,12 @@ li {
     padding: 0;
 }
 
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
