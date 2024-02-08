@@ -18,3 +18,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const lastModifiedParagraph = document.querySelector('footer p:nth-child(2)');
     lastModifiedParagraph.textContent = `Last Modified: ${formattedLastModifiedDate}`;
 });
+
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('nav');
+
+hamButton.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    hamButton.classList.toggle('open');
+});

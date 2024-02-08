@@ -1,6 +1,6 @@
-@media (min-width: 640px) {
+@media (min-width: 600px) {
     nav ul {
-        display: flex;
+        display: flex
     }
 
     nav ul li {
@@ -8,4 +8,13 @@
     }
 
 
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
 }
