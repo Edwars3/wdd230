@@ -46,6 +46,8 @@ nav a {
 main {
     max-width: 800px;
     margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .Card {
