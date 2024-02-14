@@ -116,3 +116,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+iframe {
+    width: 200%;
+    height: 500px;
+    margin-bottom: 50px;
+    border: dashed 2.5px blue;
+}
