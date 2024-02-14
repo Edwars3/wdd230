@@ -7,7 +7,6 @@ h2 {
 
 }
 
-
 #content {
     max-width: 960px;
     margin: 0 auto;
@@ -19,7 +18,28 @@ header {
     grid-template-columns: 110px auto;
 }
 
+#menu::before {
+    content: "☰";
+}
 
+#menu.open::before {
+    content: "❌";
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+
+.open a {
+    display: flex;
+}
 
 nav ul {
     display: grid;
@@ -42,6 +62,7 @@ nav a:hover {
 
 .banner-box img {
     width: 100%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .home-grid {
@@ -159,6 +180,13 @@ main {
     border-collapse: collapse;
     padding: 15px;
     margin-bottom: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 p {

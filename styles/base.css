@@ -62,7 +62,7 @@ nav a {
 
 
 .open a {
-    display: block;
+    display: flex;
 }
 
 main {
