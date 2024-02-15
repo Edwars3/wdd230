@@ -60,10 +60,6 @@ nav a:hover {
     background-color: #1B4332;
 }
 
-.banner-box img {
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-}
 
 .home-grid {
     display: grid;
