@@ -21,10 +21,30 @@ header {
     height: auto;
 }
 
+nav {
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+nav a {
+    color: #E7E7E7;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    display: none;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
-
 }
 
 nav ul li {
